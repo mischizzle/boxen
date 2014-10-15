@@ -75,6 +75,12 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  include sublime_text::v2
+  include chrome
+  include firefox
+  include iterm2::stable
+  include mysql
+
   # common, useful packages
   package {
     [
