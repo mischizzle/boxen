@@ -6,6 +6,7 @@ class people::mischizzle {
   include firefox
   include iterm2::stable
   include mysql
+  include sequel_pro
   include wget
   include spotify
   include sourcetree

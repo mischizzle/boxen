@@ -67,5 +67,6 @@ github "iterm2",        "1.2.2"
 github "mysql",         "1.99.17"
 github "wget",          "1.0.1"
 github "spotify",       "1.0.2"
+github "sequel_pro",    "1.0.1"
 github "sourcetree"
 
