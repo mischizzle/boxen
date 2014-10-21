@@ -69,4 +69,4 @@ github "wget",          "1.0.1"
 github "spotify",       "1.0.2"
 github "sequel_pro",    "1.0.1"
 github "sourcetree"
-
+#github "varnish"

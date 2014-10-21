@@ -10,5 +10,6 @@ class people::mischizzle {
   include wget
   include spotify
   include sourcetree
+  #include varnish
 
 }
