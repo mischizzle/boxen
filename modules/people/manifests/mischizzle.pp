@@ -8,7 +8,7 @@ class people::mischizzle {
   include mysql
   include sequel_pro
   include wget
-  include spotify
+  #include spotify
   include sourcetree
   #include varnish
 
