@@ -1,7 +1,7 @@
 class people::mischizzle {
 
   # Applications
-  include sublime_text::v2
+  include sublime_text
   include chrome
   include firefox
   include iterm2::stable
@@ -11,5 +11,9 @@ class people::mischizzle {
   include spotify
   include sourcetree
   #include varnish
+
+  sublime_text::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
 
 }
