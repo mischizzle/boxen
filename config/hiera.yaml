@@ -22,3 +22,5 @@
 # besides the modules that use it, you might want to override deeply nested hash
 # values, too!
 :merge_behavior: deeper
+
+mysql::port: "3306"
