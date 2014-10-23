@@ -16,4 +16,6 @@ class people::mischizzle {
     source => 'sergeche/emmet-sublime'
   }
 
+  mysql::db { 'mydb': }
+
 }
