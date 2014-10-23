@@ -1,21 +1,13 @@
 class people::mischizzle {
 
   # Applications
-  include sublime_text
+  include sublime_text_2
   include chrome
-  include firefox
+  #include firefox
   include iterm2::stable
-  include mysql
+  #include mysql
   include sequel_pro
   include wget
-  #include spotify
-  include sourcetree
-  #include varnish
-
-  sublime_text::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
-  }
-
-  mysql::db { 'mydb': }
+  #include sourcetree
 
 }
